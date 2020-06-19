@@ -19,7 +19,7 @@ function init() {
     const key = e.key; // tells us which key was pressed
    
     if (key === codes[index]) {
-      console.log(key)
+      // console.log(key)
       
       index++;
    
