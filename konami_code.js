@@ -11,12 +11,12 @@ const codes = [
   "a"
 ];
 
+let index = 0;
+
 function init() {
   document.body.addEventListener("keydown", (e) => {
     
     const key = e.key; // tells us which key was pressed
-    
-    let index = 0;
    
     if (key === codes[index]) {
       console.log(key)
