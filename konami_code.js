@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  document.body.addEventListener("keydown", onKeyDownHandler(e) {
+  document.body.addEventListener("keydown", (e) => {
     const key = e.key; // tells us which key was pressed
    
     if (key === codes[index]) {
