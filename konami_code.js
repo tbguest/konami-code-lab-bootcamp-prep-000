@@ -32,7 +32,7 @@ function init() {
       index = 0;
     }
   });
-}
+}l
 
 
 // init()
