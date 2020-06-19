@@ -14,9 +14,9 @@ const codes = [
 function init() {
   document.body.addEventListener("keydown", (e) => {
     
-    let index = 0;
-    
     const key = e.key; // tells us which key was pressed
+    
+    let index = 0;
    
     if (key === codes[index]) {
       index++;
