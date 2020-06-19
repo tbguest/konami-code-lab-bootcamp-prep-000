@@ -19,6 +19,7 @@ function init() {
     let index = 0;
    
     if (key === codes[index]) {
+      console.log(key)
       index++;
    
       if (index === codes.length) {
