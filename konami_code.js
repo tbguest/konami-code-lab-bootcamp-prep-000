@@ -13,6 +13,9 @@ const codes = [
 
 function init() {
   document.body.addEventListener("keydown", (e) => {
+    
+    let index = 0;
+    
     const key = e.key; // tells us which key was pressed
    
     if (key === codes[index]) {
